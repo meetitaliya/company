@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        .box{
+            display: block;
+            background-color: aqua;
+            text-align: center;
+            display: none;
+
+        }
+        @media (max-width:300px) and (min-width:500px){
+            #box2{
+                display: block;
+                background-color: blueviolet;
+            }
+        }
+        @media (min-width:500px) and (max-width:800){
+            #box3{
+                display: block;
+                background-color: yellow;
+            }
+        }
+        @media (min-width:800px){
+            #box4{
+                display: block;
+                background-color: brown;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="box" id="box1">i</div>
+        <div class="box" id="box2">am</div>
+        <div class="box" id="box3">mit</div>
+        <div class="box" id="box4">patel</div>
+    </div>
+    
+</body>
+</html>
